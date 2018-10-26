@@ -1,0 +1,108 @@
+.navigationBar button, .footer button, .resumeButton a {
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio {
+  display: none;
+}
+
+.contact {
+  top: 400%;
+}
+
+#portfolio {
+  display: none;
+}
+
+.navigationBar {
+  width: 95%;
+}
+
+.mainHeader {
+  font-size: 120px;
+}
+
+.sectionHeader, .projectHeader {
+  font-size: 80px;
+}
+
+.projectSpecs {
+  font-size: 40px;
+}
+
+.projectInfo {
+  width: 90%;
+}
+
+.prev {
+  left: 2%;
+}
+
+.next {
+  right: 2%;
+}
+
+.note {
+  font-size: 35px;
+}
+
+.projectHeader {
+  font-size: 65px;
+}
+
+.bio {
+  font-size: 55px;
+}
+
+.resumeInfo {
+  font-size: 40px;
+}
+
+.resumeTitles {
+  font-size: 45px;
+}
+
+.resumeInfo {
+  width: 95%;
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+}
+
+.contactInfo {
+  font-size: 60px;
+  width: 70%;
+}
+
+.form-control {
+  font-size: 40px;
+}
+
+#email {
+  height: 65px;
+}
+
+#message {
+  height: 125px;
+}
+
+.submit {
+  height: 65px;
+  font-size: 40px;
+}
+
+.far, .fab, .fas {
+  transform: scale(5);
+}
+
+.socialIcons {
+  position: relative;
+  width: 350px;
+  left: 50%;
+  transform: translate(-50%);
+  height: 100px;
+}
