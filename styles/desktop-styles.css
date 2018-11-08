@@ -8,6 +8,15 @@ body {
   padding: 0;
 }
 
+.caroselWrapper {
+  height: 50%;
+  width: 50%;
+  text-align: center;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, 0%);
+}
+
 .footer {
   top: 93%;
   left: 50%;
@@ -79,11 +88,22 @@ body {
   background-image: url('../pictures/marek-szturc-496896-unsplash.png')
 }
 
-.aboutMe, .resume, .portfolio, .contact, .sqlImpl, .fbcCalc, .euchre, .website, .forum, .resize {
+.aboutMe, .resume, .contact, .sqlImpl, .fbcCalc, .euchre, .website, .forum, .resize {
   width: 100%;
   position: absolute;
   background-color: rgba(255, 255, 255, .70);
   background-repeat: repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.portfolio {
+  width: 100%;
+  position: absolute;
+  background-repeat: repeat;
+  background-color: rgba(255, 255, 255, .70);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -325,7 +345,6 @@ textarea {
   background-color: grey;
   background-blend-mode: soft-light;
 } */
-
 .project1, .project4 {
   left: 8%;
 }
@@ -339,7 +358,6 @@ textarea {
 }
 
 /* Start of new section */
-
 .slides {
   position: relative;
 }
@@ -406,7 +424,6 @@ textarea {
 }
 
 /* End of new section */
-
 a:link {
   color: black;
 }
@@ -470,15 +487,19 @@ a:visited {
   .bio {
     width: 90%;
   }
+
   .resumeInfo {
     width: 75%;
   }
+
   .projectInfo {
     width: 60%;
   }
+
   .prev {
     left: 10%;
   }
+
   .next {
     right: 10%;
   }
@@ -488,10 +509,12 @@ a:visited {
   .bio {
     font-size: 19px;
   }
+
   .resumeInfo {
     font-size: 16.5px;
     width: 95%;
   }
+
   .projectInfo {
     width: 70%;
   }
@@ -501,12 +524,15 @@ a:visited {
   .mainHeader {
     font-size: 50px;
   }
+
   .projectInfo {
     width: 95%;
   }
+
   .prev {
     left: 3%;
   }
+
   .next {
     right: 3%;
   }
